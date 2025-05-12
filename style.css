@@ -1,0 +1,367 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;   
+     
+}
+#main{
+    width: 100%;  
+}
+
+#firstpage{
+    
+     background: linear-gradient(to bottom, #44318D, transparent), url('nature2.jpg');
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+}
+#header{
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 57vw;
+
+}
+#header h1{
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+
+    
+}
+#title{
+    padding-top: 10%;
+    padding-left: 25%;
+}
+#title h1{
+    color: white;
+    font-size: 50px;
+    text-transform: uppercase;
+    
+}
+#des{
+    width: 90%;
+    padding-top: 10vh;
+    padding-left: 3vh;
+    margin-left: 5vw;
+}
+#des h1{
+    color: white;
+    
+    text-transform: uppercase;
+}
+#des p{
+    color: white;
+    font-size: 20px;
+    padding-top: 2vh;
+}
+#resume{
+   
+    
+   width: 50%;
+   margin-top: 5vw;
+   margin-left: 5%;
+}
+#resume h2{
+    color: white;
+}
+#resume button{
+    width: 100px;
+    height: 50px;
+  margin-top: 40px;
+  margin-left: 4vw;
+  font-size: 20px;
+  border-radius: 10px;
+  border-color: black;
+  background-color: #44318D;
+  
+   
+}
+#resume a{
+    color: white;
+    text-decoration: none;
+}
+#Contact{
+    
+    margin-left:80vw;
+    margin-top: -15vh;
+    width: 150px;
+    height: 80px;
+}
+#Contact h2{
+    color:white;
+
+}
+#Contact button{
+    width:100px;
+    height:50px;
+    margin-top: 40px;
+    border-radius: 10   px;
+    background-color: #44318D;
+}
+#Contact a{
+    color: white;
+    text-decoration: none;
+}
+#second{
+   
+     background: linear-gradient(to bottom, #44318D, transparent), url('background_image.jpg');
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+     overflow: hidden; /* Prevent content from overflowing */
+    padding-bottom: 20px; 
+}
+#second{
+    padding-top:10vh;
+    padding-left: 5vh;
+   
+
+}
+#skills {
+    width: 70%;
+    font-size: 30px;
+    margin-left: 2vw;
+    color:  white;
+}
+#table{
+    display: flex;
+    justify-content: space-between;
+    width:80%;
+}
+
+
+#box1{
+    width:400px;
+    height: 30px;
+    position: relative;
+    border:white solid 2px;
+    border-radius: 5px;
+    margin-top: 4vw;
+    margin-left: 25vw;
+
+}
+
+#box2{
+    width: 350px;
+    height: 28.1px;
+    position: absolute;
+    border: white solid 1px;
+    background-color: #842fd8;
+   
+}
+#elem1{
+    width: 100px;
+    color: white;
+    
+}
+
+#box3{
+     width:400px;
+    height: 30px;
+    position: relative;
+    border:white solid 2px;
+    border-radius: 5px;
+    margin-top: 4vw;
+    margin-left: 25vw;
+}
+#box4{
+        width: 300px;
+    height: 28.1px;
+    position: absolute;
+    border: white solid 1px;
+    background-color: #842fd8;
+}
+#elem2{
+    width: 100px;
+    color:white;
+    margin-top: -5vh;
+    
+}
+
+#box5{
+     width:400px;
+    height: 30px;
+    position: relative;
+    border:white solid 2px;
+    border-radius: 5px;
+    margin-top: 4vw;
+    margin-left: 25vw;
+}
+#box6{
+        width: 280px;
+    height: 28.1px;
+    position: absolute;
+    border: white solid 1px;
+    background-color: #842fd8;
+}
+#elem3{
+    width: 100px;
+    color: white;
+    margin-top: -5vh;
+    
+}
+#box7{
+     width:400px;
+    height: 30px;
+    position: relative;
+    border:white solid 2px;
+    border-radius: 5px;
+    margin-top: 4vw;
+    margin-left: 25vw;
+}
+#box8{
+        width: 250px;
+    height: 28.1px;
+    position: absolute;
+    border: white solid 1px;
+    background-color: #842fd8;
+}
+#elem4{
+    width: 100px;
+    color: white;
+    margin-top: -5vh;
+    
+}
+
+#box9{
+     width:400px;
+    height: 30px;
+    position: relative;
+    border:white solid 2px;
+    border-radius: 5px;
+    margin-top: 4vw;
+    margin-left: 25vw;
+}
+#box10{
+        width: 300px;
+    height: 28.1px;
+    position: absolute;
+    border: white solid 1px;
+    background-color: #842fd8;
+}
+#elem5{
+    width: 100px;
+    color: white;
+    margin-top: -5vh;
+    
+}
+#third{
+     background: linear-gradient(to bottom, #44318D, transparent), url('third_background.jpeg');
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+   
+}
+#third h1{
+    color: white;
+    font-size: 50px;
+    text-align: center;
+   padding-top:3vh;
+    padding-left: 2vw;
+   
+     
+}
+#project1{
+    margin-top: 3vh;
+    width:30%;
+    height: 30vh;
+    margin-left: 55vw;
+    border: 3px solid #6a0dad;
+     
+    
+}
+#project1 p{
+    font-size: 20px;
+    margin-top: 1.5vw;
+    margin-left: 1.5vw;
+}
+#project1 button{
+     width: 100px;
+    height: 50px;
+    margin-top: 5vh;
+    color: rgb(72, 72, 181);
+    font-weight: 500;
+    margin-left: 10.5vw;
+    background-color:  #8335ba;
+}
+#project2{
+    margin-top: -30vh;
+    width:30%;
+    height: 30vh;
+    margin-left: 5vw;
+    border: 3px solid #1e90ff;
+    
+}
+#project2 p{
+    margin-top: 1vw;
+    font-size: 25px;
+    margin-left: 3.5vw;
+}
+#project2 button{
+    width: 100px;
+    height: 50px;
+    margin-top: 5vh;
+    margin-left: 10.5vw;
+    background-color: #1e90ff;
+   
+}
+#project3{
+   width: 30%;
+   height: 30vh;
+   margin-top: 3vh;
+   border: 3px solid  #2e8b57;
+    
+   margin-left: 5vw;
+    
+}
+#project3 p{
+    font-size: 25px;
+    margin-left: 1vw;
+    margin-top: 1.5vw;
+}
+#project3 button{
+    width: 100px;
+    height: 50px;
+    margin-top: 5vh;
+    margin-left: 10.5vw;
+   background-color: #2e8b57;
+}
+#project4{
+    width: 30%;
+    color: white;
+    margin-top: -53vh;
+    height: 30vh;
+    margin-left: 55vw;
+    border: 3px solid #ff6347;
+     
+}
+#project4 h1{
+    margin-left: 10vw;
+    padding-top: 1.5vw;
+}
+#project4 p{
+    font-size: 25px;
+    margin-left: 1.5vw;
+    margin-top: 1.5vw;
+}
+#project4 button{
+    width: 100px;
+    height: 50px;
+    margin-top: 5vh;
+    margin-left: 10.5vw;
+    background-color: #ff6347;
+   
+}
+footer{
+    margin-top: 8vw;
+    font-size: 20px;
+    color: white;
+}
+
